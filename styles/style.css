@@ -134,6 +134,10 @@ gap:98px;
 
 /* my inspiration section */
 
+.my-inspiration{
+    border-radius: 16px;
+}
+
 .my-inspiration-title{
     font-size: 32px;
     color: #0D1321;
@@ -142,4 +146,20 @@ gap:98px;
     font-size: 16px;
     font-weight: 200;
     color: #0D1321;
+    margin-bottom: 48px;
+}
+
+.video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+
+.custom-iframe {
+    border-radius: 15px; 
+    background-color: white; 
+    display: flex;
+    justify-content: center;
 }
