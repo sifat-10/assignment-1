@@ -1,0 +1,145 @@
+/* font */
+.azeret-mono-font {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+     font-style: normal;
+  }
+.bg-image{
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: none;
+    background-position: center;
+    margin-bottom: 74px;
+    
+}
+/* shared class */
+
+.text-center{
+    text-align: center;
+}
+
+.highest-width{
+    max-width: 1140px;
+    margin: 74px auto;
+    padding: 80px 97px;
+}
+
+
+/* banner section */
+.img{
+    width: 240px;
+    height :240px;
+    margin-top: 26px;
+}
+.banner{
+    margin: 0 auto;
+}
+
+.banner-title{
+ font-size: 48px;
+ font-weight: bolder;
+}
+
+.banner-description{
+  color: rgba(13, 19, 33, 1);
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.banner-btn{
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-bottom: 45px;
+    padding: 21px 24px;
+    color: white;
+    background-color: black;
+    border-color: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+/* why-web-dev */
+
+.why-web-dev{
+    background-color:rgba(13, 19, 33, 0.02) ;
+    border-radius: 16px;
+    padding: 80px 97px;
+    
+}
+.why-title{
+    font-size: 32px;
+    color:#0D1321;
+}
+.why-title-description{
+    margin-bottom: 47px;
+    font-weight: 200;
+    color:rgba(13, 19, 33, 1);
+
+}
+
+.first-reason{
+
+    font-size: 24px;
+    color:rgba(13, 19, 33, 0.7);
+}
+
+
+.first-reason-description{
+    font-size: 16px;
+    font-weight: 200;
+    color:rgba(13, 19, 33, 1);
+}
+.learn-more{
+    padding: 12px 20px;
+    color: rgba(13, 19, 33, 1);
+    background-color: white;
+    
+    border: 0.5px solid rgba(13, 19, 33, 1);
+    margin-top: 32px;
+}
+.container-1{
+ display: flex;
+ justify-content: space-around;
+ /* align-items: center; */
+ background-color: white;
+padding: 48px;
+border-radius: 16px;
+margin-bottom: 32px;
+gap:98px;
+
+
+}
+
+.container-2{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    background-color: white;
+    padding: 48px;
+    gap:32px;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.container-3{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    padding: 48px;
+    border-radius: 16px;
+    gap:133px;
+
+}
+
+/* my inspiration section */
+
+.my-inspiration-title{
+    font-size: 32px;
+    color: #0D1321;
+}
+.my-inspiration-description{
+    font-size: 16px;
+    font-weight: 200;
+    color: #0D1321;
+}
