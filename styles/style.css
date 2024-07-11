@@ -20,7 +20,7 @@
 .highest-width{
     max-width: 1140px;
     margin: 74px auto;
-    padding: 80px 97px;
+    /* padding: 80px 97px; */
 }
 
 
@@ -102,7 +102,7 @@
  display: flex;
  justify-content: space-around;
  /* align-items: center; */
- background-color: white;
+ background: linear-gradient(to right,  #FFFFFF , #eeeff5);
 padding: 48px;
 border-radius: 16px;
 margin-bottom: 32px;
@@ -115,7 +115,7 @@ gap:98px;
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
-    background-color: white;
+    background: linear-gradient(to left,  #FFFFFF , #eeeff5);
     padding: 48px;
     gap:32px;
     border-radius: 16px;
@@ -124,7 +124,7 @@ gap:98px;
 
 .container-3{
     display: flex;
-    background-color: white;
+    background: linear-gradient(to right,  #FFFFFF , #eeeff5);
     justify-content: space-around;
     padding: 48px;
     border-radius: 16px;
@@ -136,6 +136,7 @@ gap:98px;
 
 .my-inspiration{
     border-radius: 16px;
+    margin-bottom: 151px;
 }
 
 .my-inspiration-title{
@@ -163,3 +164,74 @@ gap:98px;
     display: flex;
     justify-content: center;
 }
+
+/* my current target */
+.my-current-target{
+    justify-content: center;
+    margin-bottom: 110px;
+}
+
+.target-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0D1321;
+    margin-bottom:24px;
+}
+.title-description{
+    font-size: 16px;
+    font-weight: 200;
+    color: #0D1321;
+    margin-bottom: 48px;
+}
+.my-current-target .container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.HTML{
+    background-color: rgba(255, 76, 30, 0.05);
+    margin-right: 24px;
+    padding: 40px;
+    width: 33%;
+    border-radius: 16px;
+}
+
+.CSS{
+    background-color: rgba(0, 76, 232, 0.05);
+    margin-right: 24px;
+    padding: 40px;
+    width: 33%;
+    border-radius: 16px;
+    height: 33%;
+}
+
+.JS{
+    background-color: rgba(255, 223, 0, 0.05);
+    width: 33%;
+    padding: 40px;
+    border-radius: 16px;
+    height: 33%;
+}
+
+.skill-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0D1321;
+    height: 33%;
+}
+
+.skill-description{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: 200;
+}
+.learn-more-a{  
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;
+
+}
+
+
+
