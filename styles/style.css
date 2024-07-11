@@ -233,5 +233,41 @@ gap:98px;
 
 }
 
+/* next target */
+
+.my-next-target-title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 24px;
+}
+
+.my-next-target-description{
+    margin-bottom: 47px;
+    font-size: 16px;
+    font-weight: 200;
+    color: #0D1321;
+}
+
+.next-target-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 24px; */
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    /* margin-top: 45px; */
+    margin-bottom: 24px;
+    
+}
+
+.image-container{
+    width:20%
+}
+
+.description-container{
+    width: 80%;
+}
+
 
 
