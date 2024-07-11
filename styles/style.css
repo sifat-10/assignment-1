@@ -126,7 +126,7 @@ nav{
     padding: 12px 20px;
     color: rgba(13, 19, 33, 1);
     background-color: white;
-    
+    cursor: pointer;
     border: 0.5px solid rgba(13, 19, 33, 1);
     margin-top: 32px;
 }
