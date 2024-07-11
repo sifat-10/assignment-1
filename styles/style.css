@@ -22,7 +22,38 @@
     margin: 74px auto;
     /* padding: 80px 97px; */
 }
+/* navbar */
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px 0px 150px;
+    background-color: white;
+    
+    
+}
+
+.resume-title{
+
+    font-size: 28px;
+    color: #0D1321;
+    font-weight: bolder;
+    margin-bottom: 50px;
+
+}
+
+.resume-download{
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 1);
+    cursor: pointer;
+   background-color: white;
+   font-size: 20px;
+   color: #0D1321;
+   font-weight:300;
+   margin-bottom: 35px;
+}
 
 /* banner section */
 .img{
@@ -103,7 +134,7 @@
  display: flex;
  justify-content: space-around;
  /* align-items: center; */
- background: linear-gradient(to right,  #FFFFFF , #eeeff5);
+ background: linear-gradient(to right,  #FFFFFF , rgba(13, 19, 33, 0.02) );
 padding: 48px;
 border-radius: 16px;
 margin-bottom: 32px;
@@ -116,7 +147,7 @@ gap:98px;
     display: flex;
     justify-content: flex-start;
     /* align-items: center; */
-    background: linear-gradient(to left,  #FFFFFF , #eeeff5);
+    background: linear-gradient(to left,  #FFFFFF , rgba(13, 19, 33, 0.02));
     padding: 48px;
     gap:32px;
     border-radius: 16px;
@@ -125,7 +156,7 @@ gap:98px;
 
 .container-3{
     display: flex;
-    background: linear-gradient(to right,  #FFFFFF , #eeeff5);
+    background: linear-gradient(to right,  #FFFFFF , rgba(13, 19, 33, 0.02));
     justify-content: space-around;
     padding: 48px;
     border-radius: 16px;
